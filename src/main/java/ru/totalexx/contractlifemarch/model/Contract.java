@@ -23,12 +23,12 @@ public class Contract extends AbstractEntity {
     @JoinColumn(name = "owner_id")
     private User owner;
 
-    @Column(name = "contract_text")
+    @Column(name = "contract_text", length = 10485760)
     private String contractText;
 
-    @OneToMany(mappedBy = "contract", orphanRemoval = true)
+    @OneToMany(mappedBy = "contract", orphanRemoval = true, cascade=CascadeType.ALL)
     private List<ContractStatus> contractStatuses = new ArrayList<>();
 
-    @OneToOne
+    @OneToOne(cascade=CascadeType.ALL)
     private ContractStatus lastContractStatus;
 }

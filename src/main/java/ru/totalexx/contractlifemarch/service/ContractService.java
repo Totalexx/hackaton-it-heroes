@@ -2,10 +2,14 @@ package ru.totalexx.contractlifemarch.service;
 
 import ru.totalexx.contractlifemarch.model.Contract;
 import ru.totalexx.contractlifemarch.model.ContractStatus;
-import ru.totalexx.contractlifemarch.model.User;
+
+import java.util.List;
 
 public interface ContractService {
-    void createContract(User owner, String text);
+    Contract createContract(String text);
     void setContractStatus(Contract contract, ContractStatus contractStatus);
+    List<Contract> getContracts();
+
+    Contract getContract(Long id);
 
 }

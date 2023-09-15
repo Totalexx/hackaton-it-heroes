@@ -10,6 +10,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import ru.totalexx.contractlifemarch.handler.LoginSuccessHandler;
 import ru.totalexx.contractlifemarch.service.impl.CustomUserDetailsService;
 
 
@@ -20,16 +22,20 @@ public class WebSecurityConfiguration {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-                .csrf()
-                .and()
+                .csrf().disable()
                 .authorizeHttpRequests(requests -> requests
-//                        .antMatchers("/auth/logout").permitAll()
-//                        .antMatchers("/auth/register").permitAll()
-                        .anyRequest().permitAll()
+                        .antMatchers("/auth/logout").permitAll()
+                        .antMatchers("/auth/register").permitAll()
+                        .antMatchers("/auth/login").permitAll()
+                        .antMatchers("/style/**").permitAll()
+                        .antMatchers("/image/**").permitAll()
+                        .antMatchers("/js/**").permitAll()
+                        .anyRequest().authenticated()
                 )
                 .formLogin(form -> form
+                        .successHandler(authenticationSuccessHandler())
                         .loginPage("/auth/login")
-                        .defaultSuccessUrl("/")
+                        .loginProcessingUrl("/auth/login")
                         .permitAll()
                 )
                 .logout(logout -> logout
@@ -53,5 +59,10 @@ public class WebSecurityConfiguration {
     @Bean
     public UserDetailsService userDetailsService() {
         return new CustomUserDetailsService();
+    }
+
+    @Bean
+    public AuthenticationSuccessHandler authenticationSuccessHandler() {
+        return new LoginSuccessHandler();
     }
 }

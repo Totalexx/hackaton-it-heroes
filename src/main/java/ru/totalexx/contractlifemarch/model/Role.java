@@ -13,20 +13,22 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class Role extends AbstractEntity{
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id", nullable = false)
-    private Long id;
-
-    @Column(name = "name")
+    @Column(name = "name", nullable = false)
     private String name;
 
     @Column(name = "localized_name")
     private String localizedName;
 
     @Column(name = "priority")
-    private Long priority;
+    private Long priority = 5000L;
 
     @Column(name = "is_admin")
-    private Boolean isAdmin;
+    private Boolean isAdmin = false;
+
+    @Column(name = "is_initiator")
+    private Boolean isInitiator = false;
+
+    @Column(name = "is_last_checker")
+    private Boolean isLastChecker = false;
 
 }

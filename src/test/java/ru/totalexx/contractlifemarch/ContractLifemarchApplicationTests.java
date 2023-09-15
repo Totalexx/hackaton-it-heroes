@@ -9,5 +9,4 @@ class ContractLifemarchApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

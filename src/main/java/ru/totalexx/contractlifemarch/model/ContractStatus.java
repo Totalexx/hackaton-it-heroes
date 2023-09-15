@@ -34,4 +34,9 @@ public class ContractStatus {
 
     @Column(name = "comment")
     private String comment;
+
+    @OneToOne
+    @JoinColumn(name = "previous_contract_status_id")
+    private ContractStatus previousContractStatus;
+
 }

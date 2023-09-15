@@ -14,6 +14,11 @@ public class AuthController {
         return "auth/login";
     }
 
+    @GetMapping("register")
+    public String getRegisterPage() {
+        return "auth/register";
+    }
+
     @PostMapping("logout")
     public String logout() {
         return getLoginPage();

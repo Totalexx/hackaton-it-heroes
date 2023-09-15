@@ -1,0 +1,91 @@
+.create-template {
+  position: relative;
+  width: 415px;
+  height: 488px;
+  background-color: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.create-template .icon-close-circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 25px;
+  left: 360px;
+}
+
+.create-template .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  position: absolute;
+  top: 103px;
+  left: 47px;
+}
+
+.create-template .text-wrapper {
+  width: fit-content;
+  font-family: "TT Travels-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26.4px;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1px;
+  color: var(--black);
+  letter-spacing: 0;
+}
+
+.create-template .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.create-template .frame-2 {
+  display: flex;
+  width: 320px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: var(--grey);
+}
+
+.create-template .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Gilroy-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.create-template .vector {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.create-template .text-wrapper-3 {
+  width: 258px;
+  font-family: "Gilroy-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.6px;
+  position: relative;
+  margin-top: -1px;
+  color: var(--black);
+  letter-spacing: 0;
+}

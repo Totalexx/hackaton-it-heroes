@@ -1,0 +1,56 @@
+body {
+    background: #F7F8FA;
+}
+
+header {
+    background: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 25px 72px;
+    margin-bottom: 39px;
+}
+
+header .logo {
+    font-family: "Unbounded";
+    font-size: 20px;
+}
+
+header .logo span {
+    background: #3F9E37;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+
+
+.box-container {
+    padding: 0 12px;
+}
+
+.box {
+    background: #fff;
+    border-radius: 10px;
+}
+
+.box.bordered {
+    border: 1px solid #E6E6E6;
+}
+
+.create-contract {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.create-contract img {
+    height: 52px;
+    width: 52px;
+}
+
+.create-contract p {
+    margin-top: 15px;
+}
