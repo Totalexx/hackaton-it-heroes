@@ -1,0 +1,235 @@
+
+.desktop .text-wrapper-11 {
+  position: relative;
+  width: 134px;
+  height: 22px;
+  margin-left: -14px;
+  margin-right: -14px;
+  font-family: "Gilroy-Semibold", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.desktop .text-wrapper-12 {
+  position: relative;
+  width: 134px;
+  height: 22px;
+  margin-left: -11.5px;
+  margin-right: -11.5px;
+  font-family: "Gilroy-Semibold", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.desktop .frame-11 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  position: absolute;
+  top: 164px;
+  left: 842px;
+}
+
+.desktop .frame-12 {
+  display: flex;
+  width: 524px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  font-family: "TT Travels-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--black);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  white-space: nowrap;
+}
+
+.desktop .frame-13 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--white);
+  border-radius: 30px;
+}
+
+.desktop .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Gilroy-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--black);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  white-space: nowrap;
+}
+
+.desktop .frame-14 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .frame-15 {
+  display: flex;
+  flex-direction: column;
+  width: 524px;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 524px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.desktop .frame-16 {
+  display: flex;
+  flex-direction: column;
+  width: 494px;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .frame-17 {
+  display: flex;
+  width: 494px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 15px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--background);
+  border-radius: 5px;
+}
+
+.desktop .text-wrapper-15 {
+  position: relative;
+  width: 434px;
+  margin-top: -1px;
+  font-family: "Gilroy-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16.8px;
+}
+
+.desktop .icon-status {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.desktop .frame-18 {
+  display: flex;
+  width: 494px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .frame-19 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--light-blue);
+  border-radius: 5px;
+}
+
+.desktop .text-wrapper-16 {
+  width: fit-content;
+  margin-top: -1px;
+  font-size: 12px;
+  line-height: 14.4px;
+  white-space: nowrap;
+  position: relative;
+  font-family: "Gilroy-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--black);
+  letter-spacing: 0;
+}
+
+.desktop .frame-20 {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop .img {
+  position: relative;
+  width: 17px;
+  height: 17px;
+}
+
+.desktop .text-wrapper-17 {
+  width: 75px;
+  height: 22px;
+  margin-top: -1px;
+  font-size: 14px;
+  line-height: 16.8px;
+  position: relative;
+  font-family: "Gilroy-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--black);
+  letter-spacing: 0;
+}
+
+.desktop .text-wrapper-18 {
+  position: relative;
+  width: 68px;
+  height: 22px;
+  margin-top: -1px;
+  font-family: "Gilroy-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--black);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16.8px;
+}

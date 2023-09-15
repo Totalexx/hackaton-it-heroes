@@ -69,30 +69,30 @@
                 <div class="text-wrapper-4">Создать договор</div>
             </button>
         </div>
-<#--        <div class="frame-6">-->
-<#--            <div class="frame-7">-->
-<#--                <div class="frame-8">-->
-<#--                    <div class="frame-9"><div class="text-wrapper-5">Договор №345</div></div>-->
-<#--                    <img class="icon-arrow-circle" src="/image/initiator-main/icon-arrow-circle-right-2.png" />-->
-<#--                </div>-->
-<#--                <div class="frame-10">-->
-<#--                    <p class="p">Поставка фруктов в сеть магазинов</p>-->
-<#--                    <img class="group" src="/image/initiator-main/group-1-2.png" />-->
-<#--                </div>-->
-<#--            </div>-->
-<#--        </div>-->
-<#--        <div class="frame-11">-->
-<#--            <div class="frame-7">-->
-<#--                <div class="frame-8">-->
-<#--                    <div class="frame-9"><div class="text-wrapper-5">Договор №346</div></div>-->
-<#--                    <img class="icon-arrow-circle" src="/image/initiator-main/icon-arrow-circle-right-2.png" />-->
-<#--                </div>-->
-<#--                <div class="frame-10">-->
-<#--                    <p class="p">Поставка фруктов в сеть магазинов</p>-->
-<#--                    <img class="group" src="/image/initiator-main/group-1-1.png" />-->
-<#--                </div>-->
-<#--            </div>-->
-<#--        </div>-->
+        <div class="frame-6">
+            <div class="frame-7">
+                <div class="frame-8">
+                    <div class="frame-9"><div class="text-wrapper-5">Договор №345</div></div>
+                    <img class="icon-arrow-circle" src="/image/initiator-main/icon-arrow-circle-right-2.png" />
+                </div>
+                <div class="frame-10">
+                    <p class="p">Поставка фруктов в сеть магазинов</p>
+                    <img class="group" src="/image/initiator-main/group-1-2.png" />
+                </div>
+            </div>
+        </div>
+        <div class="frame-11">
+            <div class="frame-7">
+                <div class="frame-8">
+                    <div class="frame-9"><div class="text-wrapper-5">Договор №346</div></div>
+                    <img class="icon-arrow-circle" src="/image/initiator-main/icon-arrow-circle-right-2.png" />
+                </div>
+                <div class="frame-10">
+                    <p class="p">Поставка овощей в сеть магазинов</p>
+                    <img class="group" src="/image/initiator-main/group-1-1.png" />
+                </div>
+            </div>
+        </div>
         <div class="frame-12">
             <div class="frame-13">
                 <div class="text-wrapper-6">Мои договоры</div>
@@ -140,75 +140,75 @@
             </#if>
             </div>
         </div>
-<#--        <div class="frame-24">-->
-<#--            <div class="text-wrapper-6">Мои уведомления</div>-->
-<#--            <div class="frame-14">-->
-<#--                <div class="text-wrapper-7">За все время</div>-->
-<#--                <img class="img" src="/image/initiator-main/icon-arrow-down.png" />-->
-<#--            </div>-->
-<#--        </div>-->
-<#--        <div class="frame-25">-->
-<#--            <div class="frame-26">-->
-<#--                <div class="frame-27">-->
-<#--                    <div class="text-wrapper-11">Вы получили новый комментарий</div>-->
-<#--                    <div class="frame-28">-->
-<#--                        <div class="frame-29">-->
-<#--                            <div class="frame-30">-->
-<#--                                <p class="text-wrapper-12">-->
-<#--                                    Здравствуйте! Ознакомился с договором и у меня возникло пару вопросов к содержанию-->
-<#--                                </p>-->
-<#--                            </div>-->
-<#--                            <div class="frame-31">-->
-<#--                                <div class="frame-18">-->
-<#--                                    <div class="frame-32"><div class="text-wrapper-5">Договор №345</div></div>-->
-<#--                                    <div class="frame-18">-->
-<#--                                        <div class="frame-33">-->
-<#--                                            <img class="img-3" src="/image/initiator-main/group.png" />-->
-<#--                                            <div class="text-wrapper-13">Иванов И.И</div>-->
-<#--                                        </div>-->
-<#--                                    </div>-->
-<#--                                </div>-->
-<#--                                <div class="frame-33">-->
-<#--                                    <img class="img-3" src="/image/initiator-main/icon-clock.png" />-->
-<#--                                    <div class="text-wrapper-14">15.09.2023</div>-->
-<#--                                </div>-->
-<#--                            </div>-->
-<#--                        </div>-->
-<#--                    </div>-->
-<#--                </div>-->
-<#--                <img class="frame-34" src="/image/initiator-main/frame-66-1.png" />-->
-<#--            </div>-->
-<#--            <div class="frame-26">-->
-<#--                <div class="frame-27">-->
-<#--                    <div class="text-wrapper-11">Вы получили новый комментарий</div>-->
-<#--                    <div class="frame-28">-->
-<#--                        <div class="frame-29">-->
-<#--                            <div class="frame-30">-->
-<#--                                <p class="text-wrapper-12">-->
-<#--                                    Здравствуйте! Ознакомился с договором и у меня возникло пару вопросов к содержанию-->
-<#--                                </p>-->
-<#--                            </div>-->
-<#--                            <div class="frame-31">-->
-<#--                                <div class="frame-18">-->
-<#--                                    <div class="frame-32"><div class="text-wrapper-5">Договор №345</div></div>-->
-<#--                                    <div class="frame-18">-->
-<#--                                        <div class="frame-33">-->
-<#--                                            <img class="img-3" src="/image/initiator-main/group.png" />-->
-<#--                                            <div class="text-wrapper-13">Иванов И.И</div>-->
-<#--                                        </div>-->
-<#--                                    </div>-->
-<#--                                </div>-->
-<#--                                <div class="frame-33">-->
-<#--                                    <img class="img-3" src="/image/initiator-main/icon-clock.png" />-->
-<#--                                    <div class="text-wrapper-14">15.09.2023</div>-->
-<#--                                </div>-->
-<#--                            </div>-->
-<#--                        </div>-->
-<#--                    </div>-->
-<#--                </div>-->
-<#--                <img class="frame-34" src="/image/initiator-main/frame-66.svg" />-->
-<#--            </div>-->
-<#--        </div>-->
+        <div class="frame-24">
+            <div class="text-wrapper-6">Мои уведомления</div>
+            <div class="frame-14">
+                <div class="text-wrapper-7">За все время</div>
+                <img class="img" src="/image/initiator-main/icon-arrow-down.png" />
+            </div>
+        </div>
+        <div class="frame-25">
+            <div class="frame-26">
+                <div class="frame-27">
+                    <div class="text-wrapper-11">Вы получили новый комментарий</div>
+                    <div class="frame-28">
+                        <div class="frame-29">
+                            <div class="frame-30">
+                                <p class="text-wrapper-12">
+                                    Здравствуйте! Ознакомился с договором и у меня возникло пару вопросов к содержанию
+                                </p>
+                            </div>
+                            <div class="frame-31">
+                                <div class="frame-18">
+                                    <div class="frame-32"><div class="text-wrapper-5">Договор №345</div></div>
+                                    <div class="frame-18">
+                                        <div class="frame-33">
+                                            <img class="img-3" src="/image/initiator-main/group.png" />
+                                            <div class="text-wrapper-13">Иванов И.И</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="frame-33">
+                                    <img class="img-3" src="/image/initiator-main/icon-clock.png" />
+                                    <div class="text-wrapper-14">15.09.2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="frame-34" src="/image/initiator-main/frame-66-1.png" />
+            </div>
+            <div class="frame-26">
+                <div class="frame-27">
+                    <div class="text-wrapper-11">Вы получили новый комментарий</div>
+                    <div class="frame-28">
+                        <div class="frame-29">
+                            <div class="frame-30">
+                                <p class="text-wrapper-12">
+                                    Здравствуйте! Ознакомился с договором и у меня возникло пару вопросов к содержанию
+                                </p>
+                            </div>
+                            <div class="frame-31">
+                                <div class="frame-18">
+                                    <div class="frame-32"><div class="text-wrapper-5">Договор №345</div></div>
+                                    <div class="frame-18">
+                                        <div class="frame-33">
+                                            <img class="img-3" src="/image/initiator-main/group.png" />
+                                            <div class="text-wrapper-13">Иванов И.И</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="frame-33">
+                                    <img class="img-3" src="/image/initiator-main/icon-clock.png" />
+                                    <div class="text-wrapper-14">15.09.2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="frame-34" src="/image/initiator-main/frame-66.svg" />
+            </div>
+        </div>
     </div>
 </div>
 </body>

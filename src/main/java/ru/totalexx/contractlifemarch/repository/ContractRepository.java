@@ -7,5 +7,5 @@ import ru.totalexx.contractlifemarch.model.User;
 import java.util.List;
 
 public interface ContractRepository extends JpaRepository<Contract, Long> {
-    List<Contract> findAllByOwnerOrderByIdAsc(User owner);
+    List<Contract> findAllByOwnerOrderByIdDesc(User owner);
 }

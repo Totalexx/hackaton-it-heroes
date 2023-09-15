@@ -46,7 +46,7 @@ public class ContractServiceImpl implements ContractService {
     @Override
     public List<Contract> getContracts() {
         User owner = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        return contractRepository.findAllByOwnerOrderByIdAsc(owner);
+        return contractRepository.findAllByOwnerOrderByIdDesc(owner);
     }
 
     public Contract getContract(Long id) {
